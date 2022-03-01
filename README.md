@@ -1,7 +1,9 @@
 # FontPruner
- 
-Check out article below for details:
+ 
+### usage： 
 
-- http://gulu-dev.com/post/2017/2017-09-15-font-pruner-intro/content
+ FontPruner.exe --inputPath=<inputPaths>... --inputFont=<inputFont>...  [--tempPath=<tempPath>]
 
-![font_pruner](http://gulu-dev.com/2017/2017-09-15-font-pruner-intro/1-method.png)
+#### e.g:
+
+.\FontPrune.exe --inputPath=./ --inputFont=./Harmony.ttf --tempPath=./
